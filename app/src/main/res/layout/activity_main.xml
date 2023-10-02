@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/gray"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="146dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="69dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/circle_button"
+            android:src="@drawable/user_button_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Olá Wallyson!"
+            android:textColor="@color/purple"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btCadastroClientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Clientes"
+        android:layout_marginBottom="16dp"
+        />
+
+
+    <Button
+        android:id="@+id/btCadastroItens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Itens"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btLancamentoPedidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lançamento de Pedidos"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btConsultarPedidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consulta de Pedidos"/>
+</LinearLayout>
